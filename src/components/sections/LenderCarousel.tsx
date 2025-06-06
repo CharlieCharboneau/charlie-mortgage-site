@@ -1,19 +1,18 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Image from 'next/image'
 
-// Placeholder lender data - we'll replace with real logos later
 const lenders = [
-  { name: "PennyMac", logo: "PM" },
-  { name: "United Wholesale Mortgage", logo: "UWM" },
-  { name: "The Loan Store", logo: "TLS" },
-  { name: "Axos Bank", logo: "AXOS" },
-  { name: "Newrez", logo: "NR" },
-  { name: "NexBank", logo: "NB" },
-  { name: "NQM Funding", logo: "NQM" },
-  { name: "Plaza", logo: "PZ" },
-  { name: "Kind Lending", logo: "KL" },
-  { name: "Champions Funding", logo: "CF" },
+  { name: "PennyMac", logo: "/images/pennymac-logo.png" },
+  { name: "United Wholesale Mortgage", logo: "/images/uwm-logo.webp" },
+  { name: "The Loan Store", logo: "/images/tls-logo.png" },
+  { name: "Axos Bank", logo: "/images/axos-bank-logo.svg.png" },
+  { name: "Newrez", logo: "/images/newrez-logo.webp" },
+  { name: "NQM Funding", logo: "/images/nqm-funding-logo.png" },
+  { name: "Plaza", logo: "/images/plaza-logo.png" },
+  { name: "Kind Lending", logo: "/images/kind-lending-logo.png" },
+  { name: "Champions Funding", logo: "/images/champions-funding-logo.png" },
 ]
 
 export default function LenderCarousel() {
@@ -25,7 +24,7 @@ export default function LenderCarousel() {
       setCurrentIndex((prevIndex) => 
         prevIndex === lenders.length - 1 ? 0 : prevIndex + 1
       )
-    }, 3000) // Change every 3 seconds
+    }, 3000)
 
     return () => clearInterval(timer)
   }, [])
@@ -44,7 +43,7 @@ export default function LenderCarousel() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Through Go Rascal&apos;s extensive network, I can shop your loan across dozens of 
+            Through Go Rascal&apos;s extensive network, Charlie can shop your loan across dozens of 
             top lenders to find you the best rates and terms available.
           </p>
         </div>
@@ -63,13 +62,16 @@ export default function LenderCarousel() {
               >
                 <div className="bg-neu-base rounded-2xl p-8 shadow-neu-raised hover:shadow-neu-hover transition-all duration-300 h-32 flex items-center justify-center group">
                   {/* Placeholder logo - using initials */}
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mb-2 shadow-neu-raised group-hover:shadow-neu-hover transition-all duration-300">
-                      <span className="text-white font-bold text-lg">
-                        {lender.logo}
-                      </span>
+                  <div className="flex flex-col items-center text-center">
+                    <div className="w-24 h-24 bg-gradient-to-br from-blue-200 to-purple-200 rounded-xl flex items-center justify-center mb-2 p-2 shadow-neu-raised group-hover:shadow-neu-hover transition-all duration-300">
+                      <Image 
+                        src={lender.logo}
+                        alt={lender.name}
+                        width={84}
+                        height={84}
+                      />
                     </div>
-                    <div className="text-sm font-medium text-gray-700">
+                    <div className="text-sm text-center font-bold text-slate-700">
                       {lender.name}
                     </div>
                   </div>

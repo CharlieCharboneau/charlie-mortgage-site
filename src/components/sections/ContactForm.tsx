@@ -111,7 +111,7 @@ export default function ContactForm() {
             Ready to Get
             <br />
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Started?
+              Rolling?
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -161,7 +161,7 @@ export default function ContactForm() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Serving</div>
-                    <div className="text-gray-600">Nationwide</div>
+                    <div className="text-gray-600">California, Colorado, Michigan, Georgia, Texas, &amp; Washington</div>
                   </div>
                 </div>
               </div>

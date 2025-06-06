@@ -27,7 +27,7 @@ export default function About() {
                 in 2018 and began his career as a mortgage loan officer with
                 Rocket Mortgage. After four successful years and funding over
                 $350M in loan volume, he moved to Better Mortgage and then 
-                Impact Loans before finding his current & likely foreverhome with Go Rascal.
+                Impact Loans before finding his home with Go Rascal.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 Now based in Los Angeles, Charlie provides deep expertise to

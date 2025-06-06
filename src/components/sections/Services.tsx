@@ -8,32 +8,32 @@ const services = [
   },
   {
     icon: RefreshCw,
-    title: "Refinancing",
+    title: "Refinance Loans",
     description: "Lower your rate, reduce payments, or access equity with our streamlined refinance process."
   },
   {
     icon: DollarSign,
-    title: "Cash-Out Refinancing",
-    description: "Tap into your home's equity for renovations, investments, or debt consolidation."
+    title: "DSCR & Non-QM",
+    description: "Perfect for investors & self-employed borrowers that need simpler, more flexible income documentation requirements."
   },
   {
     icon: Shield,
-    title: "FHA Loans",
+    title: "FHA",
     description: "Government-backed loans with low down payments and flexible credit requirements."
   },
   {
     icon: Users,
-    title: "VA Loans",
+    title: "VA",
     description: "Exclusive benefits for veterans and military families, including zero down payment options."
   },
   {
     icon: Building,
-    title: "Conventional Loans",
+    title: "Conventional",
     description: "Traditional financing with competitive rates and flexible terms for qualified borrowers."
   },
   {
     icon: Award,
-    title: "Jumbo Loans",
+    title: "Jumbo",
     description: "Financing for luxury properties exceeding conventional loan limits."
   },
   {

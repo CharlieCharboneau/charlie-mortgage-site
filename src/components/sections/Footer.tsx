@@ -153,7 +153,7 @@ export default function Footer() {
             All loans subject to credit approval. Other restrictions may apply. Mortgage loans may be arranged or made pursuant to a California 
             Finance Lenders License or a California Real Estate Broker License. Not all products or programs are available in all states. Loans are 
             arranged through third party lenders. This website is not authorized to conduct business by the New York State Department of Financial 
-            Services and is not for use by New York borrowers
+            Services and is not for use by New York borrowers.
           </p>
         </div>
 
