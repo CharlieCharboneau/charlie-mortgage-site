@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="py-24 bg-neu-base">
+    <section id="about" className="py-24 bg-gradient-to-b from-slate-300 to-neu-base">
       <div className="container mx-auto max-w-6xl px-4">
         {/* Section Header */}
         <div className="text-center mb-16">

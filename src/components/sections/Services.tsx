@@ -45,7 +45,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="py-24 bg-gradient-to-b from-neu-base to-gray-50">
+    <section id="services" className="py-24 bg-gradient-to-b from-slate-300 to-neu-base">
       <div className="container mx-auto max-w-7xl px-4">
         
         {/* Section Header */}

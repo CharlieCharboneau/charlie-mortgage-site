@@ -1,9 +1,8 @@
 import Image from 'next/image'
-import { Button } from '@/components/ui/button'
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-neu-base px-4">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-neu-base to-slate-300 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           
@@ -33,31 +32,23 @@ export default function Hero() {
               </h1>
               
               <p className="text-xl text-gray-600 max-w-lg leading-relaxed">
-                7+ years of experience • $350M+ funded • Access to 100+ lenders through Go Rascal&apos;s network
+                7+ years of experience • $350M+ funded • Access to 100+ banks, credit unions, and mortgage companies through Go Rascal&apos;s expansive lender network
               </p>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                size="lg" 
-                className="bg-neu-base text-gray-900 shadow-neu-raised hover:shadow-neu-hover transition-all duration-300 border-0 text-lg px-8 py-6"
-              >
-                Get Your Free Quote
-              </Button>
-              
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="bg-neu-base border-gray-300 text-gray-700 shadow-neu-flat hover:shadow-neu-raised transition-all duration-300 text-lg px-8 py-6"
-              >
+              <a href="#contact" className="bg-gray-900 text-white hover:bg-gray-500 shadow-neu-raised hover:shadow-neu-hover transition-all duration-300 text-lg px-8 py-6 rounded-xl font-semibold text-center">
+                Let&apos;s Run Numbers
+              </a>
+              <a href="#reviews" className="bg-neu-base text-gray-900 hover:bg-gray-500 shadow-neu-raised hover:shadow-neu-hover transition-all duration-300 text-lg px-8 py-6 border-gray-900 border-2 rounded-xl font-semibold text-center">
                 View My Reviews
-              </Button>
+              </a>
             </div>
           </div>
 
           {/* Image Side */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center">
             <div className="relative">
               <div className="bg-neu-base rounded-full p-8 shadow-neu-raised">
                 <Image
@@ -65,7 +56,7 @@ export default function Hero() {
                   alt="Charlie Charboneau"
                   width={400}
                   height={400}
-                  className="rounded-full w-80 h-80 object-cover"
+                  className="rounded-full w-60 h-60 object-cover"
                 />
               </div>
             </div>

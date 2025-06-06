@@ -31,7 +31,7 @@ export default function LenderCarousel() {
   }, [])
 
   return (
-    <section className="py-24 bg-gradient-to-b from-gray-50 to-neu-base">
+    <section id="lenders" className="py-24 bg-gradient-to-b from-neu-base to-slate-300">
       <div className="container mx-auto max-w-7xl px-4">
         
         {/* Section Header */}

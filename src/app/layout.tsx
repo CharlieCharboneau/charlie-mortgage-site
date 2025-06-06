@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Footer from '@/components/sections/Footer'
+import Header from '@/components/sections/Header'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -9,8 +11,25 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Charlie Charboneau - Mortgage Expert | Go Rascal',
-  description: '7+ years of mortgage expertise, $350M+ funded. Access to 100+ lenders through Go Rascal. Your trusted mortgage professional.',
-  keywords: 'mortgage, loan officer, refinance, home purchase, Charlie Charboneau, Go Rascal',
+  description: '7+ years of mortgage expertise, $350M+ funded. Access to 100+ lenders through Go Rascal. Your trusted mortgage professional serving nationwide.',
+  keywords: 'mortgage, loan officer, refinance, home purchase, Charlie Charboneau, Go Rascal, mortgage broker, home loans, FHA loans, VA loans, conventional loans',
+  authors: [{ name: 'Charlie Charboneau' }],
+  creator: 'Charlie Charboneau',
+  publisher: 'Go Rascal',
+  robots: 'index, follow',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://charliecharboneaumortgagelending.com',
+    title: 'Charlie Charboneau - Mortgage Expert | Go Rascal',
+    description: '7+ years of mortgage expertise, $350M+ funded. Access to 100+ lenders through Go Rascal.',
+    siteName: 'Charlie Charboneau Mortgage',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Charlie Charboneau - Mortgage Expert | Go Rascal',
+    description: '7+ years of mortgage expertise, $350M+ funded. Access to 100+ lenders through Go Rascal.',
+  },
 }
 
 export default function RootLayout({
@@ -21,7 +40,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body className={`${inter.className} antialiased bg-neu-base`}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
