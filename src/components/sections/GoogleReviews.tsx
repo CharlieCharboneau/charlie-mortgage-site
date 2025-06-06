@@ -84,7 +84,7 @@ export default function GoogleReviews() {
               </div>
               <div>
                 <div className="font-semibold text-gray-900">View on Google</div>
-                <div className="text-sm text-gray-600">See all reviews</div>
+                <div className="text-sm text-gray-600">See more reviews</div>
               </div>
               <ExternalLink className="w-4 h-4 text-gray-400" />
             </a>
