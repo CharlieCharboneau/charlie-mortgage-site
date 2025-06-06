@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "mortgage, loan officer, refinance, home purchase, Charlie Charboneau, Go Rascal, mortgage broker, home loans, FHA loans, VA loans, conventional loans",
   authors: [{ name: "Charlie Charboneau" }],
   creator: "Charlie Charboneau",
-  publisher: "Go Rascal",
+  publisher: "Charlie Charboneau",
   icons: {
     icon: "/icons/home.svg",
   },
@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://charliecharboneau.mortgage",
+    images: "/images/landing-page-screenshot.png",
     title: "Charlie Charboneau - Mortgage Expert | Powered By Go Rascal Inc",
     description:
       "7+ years of mortgage expertise, $350M+ funded. Access to 100+ lenders through Go Rascal.",
@@ -33,6 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    images: "/images/landing-page-screenshot.png",
     title: "Charlie Charboneau - Mortgage Expert | Powered By Go Rascal Inc",
     description:
       "7+ years of mortgage expertise, $350M+ funded. Access to 100+ lenders through Go Rascal.",
