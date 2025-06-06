@@ -57,15 +57,15 @@ export default function GoogleReviews() {
           </h2>
           
           {/* Google Rating Summary */}
-          <div className="flex items-center justify-center space-x-6 mb-8">
+          <div className="flex items-center justify-around md:justify-center space-x-6 mb-8">
             <div className="bg-neu-base rounded-2xl p-6 shadow-neu-raised">
               <div className="flex items-center space-x-2 mb-2">
-                <span className="text-3xl font-black text-gray-900">{averageRating}</span>
+                <span className="text-2xl md:text-3xl font-black text-gray-900">{averageRating}</span>
                 <div className="flex space-x-1">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <Star
                       key={star}
-                      className="w-6 h-6 fill-yellow-400 text-yellow-400"
+                      className="w-4 h-4 md:w-6 md:h-6 fill-yellow-400 text-yellow-400"
                     />
                   ))}
                 </div>
@@ -181,7 +181,7 @@ export default function GoogleReviews() {
               Experience the same exceptional service and expertise that has earned Charlie these outstanding reviews.
             </p>
             <a href="#contact" className="bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:text-gray-300 px-8 py-4 rounded-2xl font-semibold shadow-neu-raised hover:shadow-neu-hover transition-all duration-300">
-              Get Your Personalized Quote Today
+              Get Your Estimate Today
             </a>
           </div>
         </div>

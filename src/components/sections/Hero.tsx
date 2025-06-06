@@ -2,25 +2,12 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-neu-base to-slate-300 px-4">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-neu-base to-slate-300 px-4 mt-18 md:mt-14">
       <div className="container mx-auto max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           
           {/* Content Side */}
           <div className="space-y-8">
-            {/* Go Rascal Logo */}
-            <div className="flex items-center space-x-4">
-              <div className="bg-neu-base rounded-2xl p-4 shadow-neu-raised">
-                <Image
-                  src="/images/go-rascal-logo.png"
-                  alt="Go Rascal"
-                  width={200}
-                  height={60}
-                  className="h-12 w-auto"
-                />
-              </div>
-            </div>
-
             {/* Main Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-7xl font-black text-gray-900 leading-tight">
@@ -32,7 +19,7 @@ export default function Hero() {
               </h1>
               
               <p className="text-xl text-gray-600 max-w-lg leading-relaxed">
-                7+ years of experience • $350M+ funded • Access to 100+ banks, credit unions, and mortgage companies through Go Rascal&apos;s expansive lender network
+                7+ years of experience • $350M+ funded • Access to 100+ lenders through Go Rascal&apos;s expansive network
               </p>
             </div>
 
@@ -58,6 +45,18 @@ export default function Hero() {
                   height={400}
                   className="rounded-full w-60 h-60 object-cover"
                 />
+              </div>
+              {/* Go Rascal Logo */}
+              <div className="flex items-center justify-center space-x-4">
+                <div className="bg-neu-base rounded-2xl p-4 shadow-neu-raised">
+                  <Image
+                    src="/images/go-rascal-logo.png"
+                    alt="Go Rascal"
+                    width={200}
+                    height={60}
+                    className="h-12 w-auto"
+                  />
+                </div>
               </div>
             </div>
           </div>

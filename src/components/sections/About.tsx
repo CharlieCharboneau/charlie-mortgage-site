@@ -79,7 +79,7 @@ export default function About() {
                   <div>
                     <div className="font-semibold text-gray-900">Go Rascal</div>
                     <div className="text-sm text-gray-600">
-                      Current • Mortgage Broker
+                      Current • Loan Officer
                     </div>
                   </div>
                 </div>
@@ -90,7 +90,9 @@ export default function About() {
                     <div className="font-semibold text-gray-900">
                       Impact Loans
                     </div>
-                    <div className="text-sm text-gray-600">Loan Officer</div>
+                    <div className="text-sm text-gray-600">
+                      2024 • Senior Loan Officer
+                    </div>
                   </div>
                 </div>
 
@@ -100,7 +102,9 @@ export default function About() {
                     <div className="font-semibold text-gray-900">
                       Better Mortgage
                     </div>
-                    <div className="text-sm text-gray-600">Loan Officer</div>
+                    <div className="text-sm text-gray-600">
+                      2023 • Loan Consultant
+                    </div>
                   </div>
                 </div>
 
@@ -111,7 +115,7 @@ export default function About() {
                       Rocket Mortgage
                     </div>
                     <div className="text-sm text-gray-600">
-                      2018-2022 • Loan Officer
+                      2018-2022 • Mortgage Banker
                     </div>
                   </div>
                 </div>

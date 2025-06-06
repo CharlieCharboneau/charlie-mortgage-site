@@ -74,7 +74,7 @@ export default function Services() {
             return (
               <div 
                 key={index}
-                className="bg-neu-base rounded-3xl p-8 shadow-neu-raised hover:shadow-neu-hover transition-all duration-300 group"
+                className="flex flex-col justify-between items-center bg-neu-base rounded-3xl p-8 shadow-neu-raised hover:shadow-neu-hover transition-all duration-300 group"
               >
                 <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl p-4 w-16 h-16 flex items-center justify-center mb-6 shadow-neu-raised group-hover:shadow-neu-hover transition-all duration-300">
                   <IconComponent className="w-8 h-8 text-white" />

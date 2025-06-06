@@ -207,7 +207,7 @@ export default function ContactForm() {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="bg-neu-base shadow-neu-inset border-0 focus:shadow-neu-pressed"
+                    className="bg-neu-base shadow-neu-inset border-2 border-gray-300 focus:shadow-neu-pressed"
                   />
                 </div>
 
@@ -220,7 +220,7 @@ export default function ContactForm() {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="bg-neu-base shadow-neu-inset border-0 focus:shadow-neu-pressed"
+                    className="bg-neu-base shadow-neu-inset border-2 border-gray-300 focus:shadow-neu-pressed"
                   />
                 </div>
 
@@ -233,7 +233,7 @@ export default function ContactForm() {
                     required
                     value={formData.phone}
                     onChange={handleChange}
-                    className="bg-neu-base shadow-neu-inset border-0 focus:shadow-neu-pressed"
+                    className="bg-neu-base shadow-neu-inset border-2 border-gray-300 focus:shadow-neu-pressed"
                   />
                 </div>
 
@@ -245,7 +245,7 @@ export default function ContactForm() {
                     required
                     value={formData.loanType}
                     onChange={handleChange}
-                    className="w-full px-3 py-2 bg-neu-base shadow-neu-inset rounded-md border-0 focus:shadow-neu-pressed focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-3 py-2 bg-neu-base shadow-neu-inset rounded-md border-2 border-gray-300 focus:shadow-neu-pressed focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
                     <option value="">Select loan type</option>
                     <option value="purchase">Purchase</option>
@@ -263,7 +263,7 @@ export default function ContactForm() {
                     placeholder="e.g., $500,000"
                     value={formData.propertyValue}
                     onChange={handleChange}
-                    className="bg-neu-base shadow-neu-inset border-0 focus:shadow-neu-pressed"
+                    className="bg-neu-base shadow-neu-inset border-2 border-gray-300 focus:shadow-neu-pressed"
                   />
                 </div>
 
@@ -274,7 +274,7 @@ export default function ContactForm() {
                     name="timeline"
                     value={formData.timeline}
                     onChange={handleChange}
-                    className="w-full px-3 py-2 bg-neu-base shadow-neu-inset rounded-md border-0 focus:shadow-neu-pressed focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-3 py-2 bg-neu-base shadow-neu-inset rounded-md border-2 border-gray-300 focus:shadow-neu-pressed focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
                     <option value="">Select timeline</option>
                     <option value="asap">ASAP</option>
@@ -295,7 +295,7 @@ export default function ContactForm() {
                   placeholder="Tell me about your goals, questions, or any specific needs..."
                   value={formData.comments}
                   onChange={handleChange}
-                  className="bg-neu-base shadow-neu-inset border-0 focus:shadow-neu-pressed resize-none"
+                  className="bg-neu-base shadow-neu-inset border-2 border-gray-300 focus:shadow-neu-pressed resize-none"
                 />
               </div>
 
