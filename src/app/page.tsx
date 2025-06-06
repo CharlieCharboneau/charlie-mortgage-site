@@ -1,9 +1,16 @@
-import { Button } from "@/components/ui/button";
+import Hero from '@/components/sections/Hero';
+import About from '@/components/sections/About';
+import Services from '@/components/sections/Services';
+import LenderCarousel from '@/components/sections/LenderCarousel';
+
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <Button>Click Me</Button>
-    </div>
-  );
+    <main className="min-h-screen">
+      <Hero />
+      <About />
+      <LenderCarousel />
+      <Services />
+    </main>
+  )
 }
