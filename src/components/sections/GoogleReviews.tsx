@@ -3,6 +3,10 @@
 import { useState } from 'react'
 import { Star, ExternalLink, Quote } from 'lucide-react'
 
+interface GoogleReviewsProps {
+  bgGradient: string;
+}
+
 const reviews = [
   {
     id: 1,
@@ -22,10 +26,10 @@ const reviews = [
   },
 ]
 
-export default function GoogleReviews() {
+export default function GoogleReviews({ bgGradient }: GoogleReviewsProps) {
   const [currentReview, setCurrentReview] = useState(0)
   const averageRating = 5.0
-  const totalReviews = 47
+  // const totalReviews = 47
 
   const nextReview = () => {
     setCurrentReview((prev) => (prev + 1) % reviews.length)
@@ -43,7 +47,7 @@ export default function GoogleReviews() {
   }
 
   return (
-    <section id="reviews" className="py-24 bg-gradient-to-b from-gray-50 to-neu-base">
+    <section id="reviews" className={`py-24 ${bgGradient}`}>
       <div className="container mx-auto max-w-6xl px-4">
         
         {/* Section Header */}
@@ -70,7 +74,7 @@ export default function GoogleReviews() {
                   ))}
                 </div>
               </div>
-              <p className="text-gray-600">Based on {totalReviews} reviews</p>
+              <p className="text-gray-600">Based on reviews from verified clients</p>
             </div>
             
             <a
@@ -131,7 +135,7 @@ export default function GoogleReviews() {
                       {reviews[currentReview].name}
                     </div>
                     <div className="text-sm text-gray-600">
-                      {formatDate(reviews[currentReview].date)} • Verified Customer
+                      {formatDate(reviews[currentReview].date)} • Verified Client
                     </div>
                   </div>
                 </div>

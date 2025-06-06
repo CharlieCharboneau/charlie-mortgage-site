@@ -3,6 +3,10 @@
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 
+interface LenderCarouselProps {
+  bgGradient: string;
+}
+
 const lenders = [
   { name: "PennyMac", logo: "/images/pennymac-logo.png" },
   { name: "United Wholesale Mortgage", logo: "/images/uwm-logo.webp" },
@@ -15,7 +19,7 @@ const lenders = [
   { name: "Champions Funding", logo: "/images/champions-funding-logo.png" },
 ]
 
-export default function LenderCarousel() {
+export default function LenderCarousel({ bgGradient }: LenderCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   // Auto-scroll functionality
@@ -30,7 +34,7 @@ export default function LenderCarousel() {
   }, [])
 
   return (
-    <section id="lenders" className="py-24 bg-gradient-to-b from-neu-base to-slate-300">
+    <section id="lenders" className={`py-24 ${bgGradient}`}>
       <div className="container mx-auto max-w-7xl px-4">
         
         {/* Section Header */}

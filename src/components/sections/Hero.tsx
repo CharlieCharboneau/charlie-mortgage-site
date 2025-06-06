@@ -1,11 +1,17 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-export default function Hero() {
+interface HeroProps {
+  bgGradient: string;
+}
+
+export default function Hero({ bgGradient }: HeroProps) {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-neu-base to-slate-300 px-4 mt-18 md:mt-14">
+    <section
+      id="home"
+      className={`min-h-screen flex items-center justify-center ${bgGradient} px-4 mt-18 md:mt-0`}
+    >
       <div className="container mx-auto max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          
           {/* Content Side */}
           <div className="space-y-8">
             {/* Main Headline */}
@@ -17,18 +23,25 @@ export default function Hero() {
                   Mortgage Expert
                 </span>
               </h1>
-              
+
               <p className="text-xl text-gray-600 max-w-lg leading-relaxed">
-                7+ years of experience • $350M+ funded • Access to 100+ lenders through Go Rascal&apos;s expansive network
+                7+ years of experience • $350M+ funded • Access to 100+ lenders
+                through Go Rascal&apos;s expansive network
               </p>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#contact" className="bg-gray-900 text-white hover:bg-gray-500 shadow-neu-raised hover:shadow-neu-hover transition-all duration-300 text-lg px-8 py-6 rounded-xl font-semibold text-center">
+              <a
+                href="#contact"
+                className="bg-gray-900 text-white hover:bg-gray-500 shadow-neu-raised hover:shadow-neu-hover transition-all duration-300 text-lg px-8 py-6 rounded-xl font-semibold text-center"
+              >
                 Let&apos;s Run Numbers
               </a>
-              <a href="#reviews" className="bg-neu-base text-gray-900 hover:bg-gray-500 shadow-neu-raised hover:shadow-neu-hover transition-all duration-300 text-lg px-8 py-6 border-gray-900 border-2 rounded-xl font-semibold text-center">
+              <a
+                href="#reviews"
+                className="bg-neu-base text-gray-900 hover:bg-gray-500 shadow-neu-raised hover:shadow-neu-hover transition-all duration-300 text-lg px-8 py-6 border-gray-900 border-2 rounded-xl font-semibold text-center"
+              >
                 View My Reviews
               </a>
             </div>
@@ -56,14 +69,15 @@ export default function Hero() {
                     height={60}
                     className="h-12 w-auto"
                   />
-                  <p className="text-sm text-slate-900 font-semibold mt-4">NMLS #2072896</p>
+                  <p className="text-sm text-slate-900 font-semibold mt-4">
+                    NMLS #2072896
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
-  )
+  );
 }

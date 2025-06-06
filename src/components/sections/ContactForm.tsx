@@ -7,7 +7,11 @@ import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 import { Phone, Mail, MapPin, CheckCircle } from 'lucide-react'
 
-export default function ContactForm() {
+interface ContactFormProps {
+  bgGradient: string;
+}
+
+export default function ContactForm({ bgGradient }: ContactFormProps) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -102,7 +106,7 @@ export default function ContactForm() {
   }
 
   return (
-    <section id="contact" className="py-24 bg-gradient-to-b from-neu-base to-gray-100">
+    <section id="contact" className={`py-24 ${bgGradient}`}>
       <div className="container mx-auto max-w-7xl px-4">
         
         {/* Section Header */}

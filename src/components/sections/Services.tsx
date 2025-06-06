@@ -1,5 +1,9 @@
 import { Home, RefreshCw, DollarSign, Shield, Users, Building, Award, Heart } from 'lucide-react'
 
+interface ServicesProps {
+  bgGradient: string;
+}
+
 const services = [
   {
     icon: Home,
@@ -43,9 +47,9 @@ const services = [
   }
 ]
 
-export default function Services() {
+export default function Services({ bgGradient }: ServicesProps) {
   return (
-    <section id="services" className="py-24 bg-gradient-to-b from-slate-300 to-neu-base">
+    <section id="services" className={`py-24 ${bgGradient}`}>
       <div className="container mx-auto max-w-7xl px-4">
         
         {/* Section Header */}
