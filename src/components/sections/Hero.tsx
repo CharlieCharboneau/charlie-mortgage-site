@@ -37,7 +37,7 @@ export default function Hero() {
           {/* Image Side */}
           <div className="flex justify-center">
             <div className="relative">
-              <div className="bg-neu-base rounded-full p-8 shadow-neu-raised">
+              <div className="bg-neu-base rounded-full px-8 py-4 shadow-neu-raised">
                 <Image
                   src="/images/charlie-headshot.png"
                   alt="Charlie Charboneau"
@@ -48,7 +48,7 @@ export default function Hero() {
               </div>
               {/* Go Rascal Logo */}
               <div className="flex items-center justify-center space-x-4">
-                <div className="bg-neu-base rounded-2xl p-4 shadow-neu-raised">
+                <div className="flex flex-col items-center bg-neu-base rounded-2xl px-4 shadow-neu-raised">
                   <Image
                     src="/images/go-rascal-logo.png"
                     alt="Go Rascal"
@@ -56,6 +56,7 @@ export default function Hero() {
                     height={60}
                     className="h-12 w-auto"
                   />
+                  <p className="text-sm text-slate-900 font-semibold mt-4">NMLS #2072896</p>
                 </div>
               </div>
             </div>

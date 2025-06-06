@@ -15,7 +15,7 @@ export default function About() {
         </div>
 
         {/* Content Grid */}
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-14 items-center">
           {/* Story Content */}
           <div className="space-y-8">
             <div className="bg-neu-base rounded-3xl p-8 shadow-neu-raised">
@@ -23,16 +23,19 @@ export default function About() {
                 From Detroit to LA, Getting Deals Done
               </h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                A native of Metro Detroit, Charlie graduated from Boston College
+                A Metro Detroit native, Charlie graduated from Boston College
                 in 2018 and began his career as a mortgage loan officer with
                 Rocket Mortgage. After four successful years and funding over
-                $350MM in loan volume, he moved to Better Mortgage and then 
-                Impact Loans before finding his home with Go Rascal.
+                $350M in loan volume, he moved to Better Mortgage and then 
+                Impact Loans before finding his current & likely foreverhome with Go Rascal.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Now based in Los Angeles, Charlie brings his deep expertise to
-                clients while maintaining his Midwest values and commitment to
-                exceptional service.
+                Now based in Los Angeles, Charlie provides deep expertise to
+                clients while maintaining his commitment to exceptional service.
+                As a loan officer with Go Rascal, Charlie has access to over 130 
+                lenders and thousands of different mortgage products. This means
+                Charlie can shop the market for you to find the best program,
+                product, and price for your unique situation.
               </p>
             </div>
 
@@ -43,8 +46,8 @@ export default function About() {
               <p className="text-gray-700 leading-relaxed">
                 Charlie&apos;s unique background as both a mortgage professional
                 and software developer sets him apart. He built this website
-                himself and brings a tech-forward approach to the traditionally
-                complex mortgage process, deliver a more streamlined & transparent experience to his clients.
+                himself (writing in the third person is weird) and brings a tech-forward approach to the traditionally
+                complex mortgage process, delivering a more streamlined & transparent experience to his clients.
               </p>
             </div>
           </div>

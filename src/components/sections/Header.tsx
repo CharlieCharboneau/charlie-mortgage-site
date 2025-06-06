@@ -46,7 +46,7 @@ export default function Header() {
             </div>
             <div>
               <div className="font-bold text-gray-900">Charlie Charboneau</div>
-              <div className="text-sm text-gray-600">Mortgage Expert</div>
+              <div className="text-sm text-gray-600">Powered by Go Rascal Inc</div>
             </div>
           </div>
 

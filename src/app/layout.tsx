@@ -26,14 +26,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://charliecharboneau.mortgage",
-    title: "Charlie Charboneau - Mortgage Expert | Go Rascal",
+    title: "Charlie Charboneau - Mortgage Expert | Powered By Go Rascal Inc",
     description:
       "7+ years of mortgage expertise, $350M+ funded. Access to 100+ lenders through Go Rascal.",
-    siteName: "Charlie Charboneau Mortgage Lending",
+    siteName: "Charlie Charboneau Mortgage Expert | Powered By Go Rascal Inc",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Charlie Charboneau - Mortgage Expert | Go Rascal",
+    title: "Charlie Charboneau - Mortgage Expert | Powered By Go Rascal Inc",
     description:
       "7+ years of mortgage expertise, $350M+ funded. Access to 100+ lenders through Go Rascal.",
   },

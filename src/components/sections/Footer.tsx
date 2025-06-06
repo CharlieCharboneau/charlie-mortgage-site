@@ -24,7 +24,7 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold">Charlie Charboneau</h3>
-                <p className="text-gray-300">Mortgage Professional</p>
+                <p className="text-gray-300">Mortgage Expert | Powered By Go Rascal Inc</p>
               </div>
             </div>
             
@@ -127,10 +127,10 @@ export default function Footer() {
             
             <div className="space-y-2">
               <p className="text-sm text-gray-400">
-                Licensed Mortgage Professional | NMLS# 1783089
+                Licensed Mortgage Loan Originator | NMLS# 1783089
               </p>
               <p className="text-sm text-gray-400">
-                Equal Housing Opportunity Lender
+                Go Rascal Inc | NMLS# 2072896
               </p>
             </div>
 
@@ -151,7 +151,9 @@ export default function Footer() {
           <p className="text-xs text-gray-400 leading-relaxed">
             <strong>Disclaimer:</strong> This is not an offer to lend or extend credit. Information and/or dates are subject to change without notice. 
             All loans subject to credit approval. Other restrictions may apply. Mortgage loans may be arranged or made pursuant to a California 
-            Finance Lenders License or a California Real Estate Broker License. Not all products or programs are available in all states.
+            Finance Lenders License or a California Real Estate Broker License. Not all products or programs are available in all states. Loans are 
+            arranged through third party lenders. This website is not authorized to conduct business by the New York State Department of Financial 
+            Services and is not for use by New York borrowers
           </p>
         </div>
 
