@@ -51,7 +51,11 @@ export default function Services() {
         {/* Section Header */}
         <div className="text-center mb-20">
           <h2 className="text-4xl lg:text-6xl font-black text-gray-900 mb-6">
-            Loan Products &
+            Loan&nbsp; 
+            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              Products&nbsp; 
+            </span>
+            &amp;
             <br />
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Services
@@ -97,9 +101,9 @@ export default function Services() {
             <p className="text-gray-600 mb-6">
               Let&apos;s discuss your goals and find the perfect financing solution together.
             </p>
-            <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-2xl font-semibold shadow-neu-raised hover:shadow-neu-hover transition-all duration-300">
+            <a href="#contact" className="bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:text-gray-300 px-8 py-4 rounded-2xl font-semibold shadow-neu-raised hover:shadow-neu-hover transition-all duration-300">
               Schedule a Consultation
-            </button>
+            </a>
           </div>
         </div>
 

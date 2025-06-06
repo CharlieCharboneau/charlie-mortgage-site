@@ -180,9 +180,9 @@ export default function GoogleReviews() {
             <p className="text-gray-600 mb-6">
               Experience the same exceptional service and expertise that has earned Charlie these outstanding reviews.
             </p>
-            <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-2xl font-semibold shadow-neu-raised hover:shadow-neu-hover transition-all duration-300">
-              Get Your Free Quote Today
-            </button>
+            <a href="#contact" className="bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:text-gray-300 px-8 py-4 rounded-2xl font-semibold shadow-neu-raised hover:shadow-neu-hover transition-all duration-300">
+              Get Your Personalized Quote Today
+            </a>
           </div>
         </div>
 

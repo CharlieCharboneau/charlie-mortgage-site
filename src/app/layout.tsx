@@ -25,11 +25,11 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://charliecharboneaumortgagelending.com",
+    url: "https://charliecharboneau.mortgage",
     title: "Charlie Charboneau - Mortgage Expert | Go Rascal",
     description:
       "7+ years of mortgage expertise, $350M+ funded. Access to 100+ lenders through Go Rascal.",
-    siteName: "Charlie Charboneau Mortgage",
+    siteName: "Charlie Charboneau Mortgage Lending",
   },
   twitter: {
     card: "summary_large_image",
