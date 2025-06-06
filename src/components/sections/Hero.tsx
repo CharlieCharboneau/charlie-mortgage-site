@@ -43,7 +43,7 @@ export default function Hero() {
                   alt="Charlie Charboneau"
                   width={400}
                   height={400}
-                  className="rounded-full w-60 h-60 object-cover"
+                  className="rounded-full w-70 h-70 object-cover"
                 />
               </div>
               {/* Go Rascal Logo */}
