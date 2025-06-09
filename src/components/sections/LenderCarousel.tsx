@@ -108,8 +108,8 @@ export default function LenderCarousel({ bgGradient }: LenderCarouselProps) {
             </h3>
             <p className="text-gray-600 leading-relaxed mb-6">
               Different lenders offer different rates, programs, and approval criteria. 
-              By having access to Go Rascal&apos;s extensive network, I can find the lender 
-              that&apos;s the perfect fit for your unique situation and goals.
+              By having access to Go Rascal&apos;s extensive network, Charlie will find the perfect 
+              lender and loan program for your unique situation and goals.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>

@@ -67,7 +67,7 @@ export default function Services({ bgGradient }: ServicesProps) {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Whether you&apos;re buying your first home or refinancing your forever home, 
-            we have the expertise and lender network to find your perfect loan.
+            Charlie has the expertise and lender network to find your perfect loan.
           </p>
         </div>
 

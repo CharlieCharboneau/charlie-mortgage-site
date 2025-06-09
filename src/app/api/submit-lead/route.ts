@@ -42,7 +42,6 @@ export async function POST(request: NextRequest) {
     }
 
     // TODO: Send email notification
-    // For now, we'll just log the success
     console.log('New lead submitted:', data[0])
 
     return NextResponse.json(
