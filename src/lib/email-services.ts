@@ -18,7 +18,7 @@ interface Lead {
 export async function sendLeadNotification(lead: Lead) {
   try {
     const { data, error } = await resend.emails.send({
-      from: 'Charlie\'s Website <notifications@charliecharboneau.mortgage>',
+      from: 'Charlie Charboneau - Mortgage Expert <notifications@charliecharboneau.mortgage>',
       to: ['charlie@gorascal.com'],
       subject: `🎉 New Lead: ${lead.name} - ${lead.loan_type}`,
       react: LeadNotificationEmail({ lead }),
@@ -42,7 +42,7 @@ export async function sendLeadConfirmation(lead: Lead) {
     const { data, error } = await resend.emails.send({
       from: 'Charlie Charboneau <notifications@charliecharboneau.mortgage>',
       to: [lead.email],
-      subject: 'Thank you for your interest! - Charlie Charboneau Mortgage',
+      subject: 'Thank\'s for reaching out! - Charlie Charboneau',
       react: LeadConfirmationEmail({ lead }),
     });
 

@@ -71,22 +71,6 @@ export const LeadConfirmationEmail = ({ lead }: LeadConfirmationEmailProps) => {
                     marginBottom: "15px",
                   }}
                 >
-                  <Section
-                    style={{
-                      backgroundColor: "#10b981",
-                      color: "white",
-                      width: "30px",
-                      height: "30px",
-                      borderRadius: "50%",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      marginRight: "15px",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    <Text style={{ margin: "0" }}>1</Text>
-                  </Section>
                   <Text style={{ margin: "0" }}>
                     <strong>I&apos;ll contact you within 24 hours</strong> to
                     discuss your {lead.loan_type} needs
@@ -100,26 +84,10 @@ export const LeadConfirmationEmail = ({ lead }: LeadConfirmationEmailProps) => {
                     marginBottom: "15px",
                   }}
                 >
-                  <Section
-                    style={{
-                      backgroundColor: "#8b5cf6",
-                      color: "white",
-                      width: "30px",
-                      height: "30px",
-                      borderRadius: "50%",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      marginRight: "15px",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    <Text style={{ margin: "0" }}>2</Text>
-                  </Section>
-                  <Text style={{ margin: "0" }}>
+                    <Text style={{ margin: "0" }}>
                     <strong>We&apos;ll review your goals</strong> and find the
                     best loan options
-                  </Text>
+                    </Text>
                 </Section>
 
                 <Section
@@ -129,22 +97,6 @@ export const LeadConfirmationEmail = ({ lead }: LeadConfirmationEmailProps) => {
                     marginBottom: "15px",
                   }}
                 >
-                  <Section
-                    style={{
-                      backgroundColor: "#f59e0b",
-                      color: "white",
-                      width: "30px",
-                      height: "30px",
-                      borderRadius: "50%",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      marginRight: "15px",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    <Text style={{ margin: "0" }}>3</Text>
-                  </Section>
                   <Text style={{ margin: "0" }}>
                     <strong>I&apos;ll shop your loan</strong> across 100+
                     lenders for the best rates
@@ -194,9 +146,6 @@ export const LeadConfirmationEmail = ({ lead }: LeadConfirmationEmailProps) => {
               }}
             >
               <Text>Charlie Charboneau | Go Rascal Mortgage</Text>
-              <Text>
-                7+ Years Experience • $350M+ Funded • Access to 100+ Lenders
-              </Text>
             </Section>
           </Section>
         </Container>
