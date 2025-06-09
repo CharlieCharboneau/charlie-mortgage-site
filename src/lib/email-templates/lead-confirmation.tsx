@@ -99,7 +99,7 @@ export const LeadConfirmationEmail = ({ lead }: LeadConfirmationEmailProps) => {
                 >
                   <Text style={{ margin: "0" }}>
                     <strong>I&apos;ll shop your loan</strong> across 100+
-                    lenders for the best rates
+                    lenders for a great rate
                   </Text>
                 </Section>
               </Section>

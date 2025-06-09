@@ -38,8 +38,8 @@ export default function About({ bgGradient }: AboutProps) {
                 clients while maintaining his commitment to exceptional service.
                 As a loan officer with Go Rascal, Charlie has access to over 130 
                 lenders and thousands of different mortgage products. This means
-                Charlie can shop the market for you to find the best program,
-                product, and price for your unique situation.
+                Charlie can shop the market for you to custom tailor a loan to your
+                 unique situation.
               </p>
             </div>
 

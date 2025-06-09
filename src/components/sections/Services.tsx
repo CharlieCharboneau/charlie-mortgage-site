@@ -1,4 +1,4 @@
-import { Home, RefreshCw, DollarSign, Shield, Users, Building, Award, Heart } from 'lucide-react'
+import { Home, RefreshCw, Banknote, Handshake, Shield, Users, Building, Award, Heart } from 'lucide-react'
 
 interface ServicesProps {
   bgGradient: string;
@@ -8,42 +8,47 @@ const services = [
   {
     icon: Home,
     title: "Purchase Loans",
-    description: "First-time buyers to luxury homes, we'll find the perfect loan for your dream property."
+    description: "Whether it's your first place or a luxury vacation home, Charlie will find the perfect loan for your dream property."
   },
   {
     icon: RefreshCw,
     title: "Refinance Loans",
-    description: "Lower your rate, reduce payments, or access equity with our streamlined refinance process."
+    description: "Lower your rate, reduce payments, or take cash out with a streamlined refinance process."
   },
   {
-    icon: DollarSign,
-    title: "DSCR & Non-QM",
-    description: "Perfect for investors & self-employed borrowers that need simpler, more flexible income documentation requirements."
+    icon: Banknote,
+    title: "DSCR",
+    description: "Perfect for investors that want a simple, easy means to build their rental portfolio. Great rates & incredibly minimal documentation requirements for any rental property."
+  },
+  {
+    icon: Handshake,
+    title: "Non-QM",
+    description: "Charlie works with dozens of Non-QM lenders that specialize in offering financing to business owners with complicated business tax returns, making the process simple & easy."
   },
   {
     icon: Shield,
     title: "FHA",
-    description: "Government-backed loans with low down payments and flexible credit requirements."
+    description: "Government-backed loans with low down payments and flexible credit requirements that make it easy for borrowers with less than perfect credit and lower income to achieve homeownership."
   },
   {
     icon: Users,
     title: "VA",
-    description: "Exclusive benefits for veterans and military families, including zero down payment options."
+    description: "Exclusive benefits for veterans and military families, including zero down payment options and lower interest rates that make the home-buying process more affordable."
   },
   {
     icon: Building,
     title: "Conventional",
-    description: "Traditional financing with competitive rates and flexible terms for qualified borrowers."
+    description: "Work with premium lenders that cater exclusively to well-qualified borrowers with excellent credit scores & high-income."
   },
   {
     icon: Award,
     title: "Jumbo",
-    description: "Financing for luxury properties exceeding conventional loan limits."
+    description: "Charlie has hundreds of fixed-rate, adjustable-rate, and interest-only options for loans that exceed conventional loan limits."
   },
   {
     icon: Heart,
-    title: "First-Time Homebuyer Programs",
-    description: "Special programs and guidance to help you achieve homeownership for the first time."
+    title: "First-Time Homebuyer",
+    description: "Special programs and guidance to help you achieve homeownership for the first time, including down payment assistance programs to lower up front costs."
   }
 ]
 
@@ -72,19 +77,19 @@ export default function Services({ bgGradient }: ServicesProps) {
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => {
             const IconComponent = service.icon
             return (
               <div 
                 key={index}
-                className="flex flex-col justify-between items-center bg-neu-base rounded-3xl p-8 shadow-neu-raised hover:shadow-neu-hover transition-all duration-300 group"
+                className="flex flex-col items-center bg-neu-base rounded-3xl p-8 shadow-neu-raised hover:shadow-neu-hover transition-all duration-300 group"
               >
                 <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl p-4 w-16 h-16 flex items-center justify-center mb-6 shadow-neu-raised group-hover:shadow-neu-hover transition-all duration-300">
                   <IconComponent className="w-8 h-8 text-white" />
                 </div>
                 
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                <h3 className="text-xl text-center font-bold text-gray-900 mb-4">
                   {service.title}
                 </h3>
                 

@@ -48,7 +48,7 @@ export default function LenderCarousel({ bgGradient }: LenderCarouselProps) {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Through Go Rascal&apos;s extensive network, Charlie can shop your loan across dozens of 
-            top lenders to find you the best rates and terms available.
+            top lenders to find you an incredible deal.
           </p>
         </div>
 
@@ -107,9 +107,9 @@ export default function LenderCarousel({ bgGradient }: LenderCarouselProps) {
               Why Lender Network Matters
             </h3>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Different lenders offer different rates, programs, and approval criteria. 
+              Why check with just one lender when Charlie can shop over 100 lenders instantly? Different lenders offer different rates, programs, and approval criteria. 
               By having access to Go Rascal&apos;s extensive network, Charlie will find the perfect 
-              lender and loan program for your unique situation and goals.
+              lender and loan program for your unique situation and goals, saving you time, hassle, and money.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
@@ -117,11 +117,11 @@ export default function LenderCarousel({ bgGradient }: LenderCarouselProps) {
                 <div className="text-gray-700">Lender Partners</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-purple-600 mb-2">Best</div>
-                <div className="text-gray-700">Rates Available</div>
+                <div className="text-2xl font-bold text-purple-600 mb-2">Ultra Low</div>
+                <div className="text-gray-700">Rates &amp; Terms</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-green-600 mb-2">Fast</div>
+                <div className="text-2xl font-bold text-green-600 mb-2">Super Fast</div>
                 <div className="text-gray-700">Approval Process</div>
               </div>
             </div>
