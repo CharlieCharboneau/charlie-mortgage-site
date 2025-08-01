@@ -123,7 +123,7 @@ export default function Footer() {
 
         {/* Legal & Professional Info */}
         <div className="border-t border-gray-800 pt-8">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="grid md:grid-cols-3 gap-8 items-center">
             
             <div className="space-y-2">
               <p className="text-sm text-gray-400">
@@ -132,6 +132,16 @@ export default function Footer() {
               <p className="text-sm text-gray-400">
                 Go Rascal Inc | NMLS# 2072896
               </p>
+            </div>
+
+            <div className="space-y-2 flex justify-center">
+              <Image 
+                src="/images/eho-logo.png" 
+                alt="Equal Housing Opportunity Logo"
+                width={72}
+                height={72}
+                className="w-18 h-18 rounded-lg bg-white"
+              />
             </div>
 
             <div className="text-right">

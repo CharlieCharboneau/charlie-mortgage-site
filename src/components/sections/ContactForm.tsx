@@ -165,7 +165,7 @@ export default function ContactForm({ bgGradient }: ContactFormProps) {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Serving</div>
-                    <div className="text-gray-600">California, Colorado, Michigan, Georgia, Texas, &amp; Washington</div>
+                    <div className="text-gray-600">Colorado (#100533658), Michigan, Georgia, Texas</div>
                   </div>
                 </div>
               </div>

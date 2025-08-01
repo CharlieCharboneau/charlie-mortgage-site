@@ -7,6 +7,14 @@ interface GoogleReviewsProps {
   bgGradient: string;
 }
 
+const getReviews = async () => {
+  const reviews = await fetch('https://mybusiness.googleapis.com/v4/accounts/8528168385057425404/locations/10300107045402078086/reviews');
+  const data = await reviews.json()
+  return data
+}
+
+console.log("REVIEWS", await getReviews());
+
 const reviews = [
   {
     id: 1,
